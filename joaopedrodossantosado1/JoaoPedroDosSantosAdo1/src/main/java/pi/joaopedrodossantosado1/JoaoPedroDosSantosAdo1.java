@@ -11,6 +11,8 @@ package pi.joaopedrodossantosado1;
 public class JoaoPedroDosSantosAdo1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        TelaInicial inicio = new TelaInicial();
+        Animal j1 = new Animal();
+        inicio.setVisible(true);
     }
 }
