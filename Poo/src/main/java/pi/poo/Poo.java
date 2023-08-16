@@ -12,6 +12,10 @@ package pi.poo;
 public class Poo {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       Aviao aviao1 = new Aviao();
+       aviao1.acelerar();
+       System.out.println(aviao1.getCor());
+       aviao1.setCor("PRETO");
+        System.out.println(aviao1.getCor());
     }
 }
