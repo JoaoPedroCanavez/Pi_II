@@ -4,6 +4,8 @@
 
 package pi.joaopedrodossantosado1;
 
+import pi.Telas.Menu;
+
 /**
  *
  * @author jsant
@@ -11,8 +13,8 @@ package pi.joaopedrodossantosado1;
 public class JoaoPedroDosSantosAdo1 {
 
     public static void main(String[] args) {
-        TelaInicial inicio = new TelaInicial();
+        Menu menuInicial = new Menu();
+        menuInicial.setVisible(true);
         Animal j1 = new Animal();
-        inicio.setVisible(true);
     }
 }
