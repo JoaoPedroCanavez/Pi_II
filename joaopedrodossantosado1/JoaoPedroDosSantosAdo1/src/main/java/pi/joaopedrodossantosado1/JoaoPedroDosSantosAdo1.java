@@ -4,7 +4,7 @@
 
 package pi.joaopedrodossantosado1;
 
-import pi.Telas.Menu;
+import pi.Telas.Login;
 
 /**
  *
@@ -13,8 +13,8 @@ import pi.Telas.Menu;
 public class JoaoPedroDosSantosAdo1 {
 
     public static void main(String[] args) {
-        Menu menuInicial = new Menu();
-        menuInicial.setVisible(true);
+        Login entrada =new Login();
+        entrada.setVisible(true);
         Animal j1 = new Animal();
     }
 }
